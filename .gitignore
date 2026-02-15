@@ -1,0 +1,19 @@
+# Python virtual environment — never push this
+venv/
+
+# Environment variables — never push API keys
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Chainlit internal files
+.chainlit/
+
+# Uploaded CV files — temp storage, no need to track
+uploads/
+
+# VS Code settings
+.vscode/

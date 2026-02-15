@@ -1,0 +1,64 @@
+/* Import Inter font for clean modern look */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Base app font */
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Chat input bar — purple glow on focus */
+[class*="input"] {
+  border-color: hsl(270, 80%, 60%) !important;
+}
+
+/* Purple glow effect on focused input */
+[class*="input"]:focus-within {
+  box-shadow: 0 0 0 2px hsla(270, 80%, 60%, 0.3) !important;
+}
+
+/* Step/agent trace items — subtle left purple border */
+[class*="step"] {
+  border-left: 2px solid hsla(270, 80%, 60%, 0.4) !important;
+}
+
+/* Action buttons (HITL approve/edit/regenerate) — purple styled */
+[class*="action"] button {
+  background: hsla(270, 80%, 60%, 0.15) !important;
+  border: 1px solid hsla(270, 80%, 60%, 0.5) !important;
+  color: hsl(270, 80%, 75%) !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Hover effect on action buttons */
+[class*="action"] button:hover {
+  background: hsla(270, 80%, 60%, 0.3) !important;
+  border-color: hsl(270, 80%, 60%) !important;
+}
+
+/* Output cards — dark card with purple top border */
+.output-card {
+  background: hsl(260, 20%, 11%);
+  border: 1px solid hsl(260, 20%, 18%);
+  border-top: 3px solid hsl(270, 80%, 60%);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 12px 0;
+}
+
+/* Card title styling */
+.output-card h3 {
+  color: hsl(270, 80%, 75%);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+/* Card body text */
+.output-card p {
+  color: hsl(260, 10%, 85%);
+  font-size: 14px;
+  line-height: 1.7;
+}

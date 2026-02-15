@@ -1,0 +1,23 @@
+# LangGraph — core agent orchestration framework
+langgraph
+
+# LangChain OpenAI integration — to use OpenAI models
+langchain-openai
+
+# LangChain core — base classes, messages, tools
+langchain-core
+
+# Chainlit — UI framework for our app
+chainlit
+
+# python-docx — to parse .docx CV files
+python-docx
+
+# PyMuPDF — to parse .pdf CV files
+pymupdf
+
+# python-dotenv — to load .env variables into environment
+python-dotenv
+
+# pydantic — data validation for state and structured outputs
+pydantic
